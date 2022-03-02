@@ -1,0 +1,226 @@
+body{
+    
+    font: Garamond;
+    font-size: 15px;
+    color: #efe9db;
+    background-image: url("roket.png");
+
+   }
+.header{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 15px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #C0D8C0;
+    z-index: 1;
+}
+.header ul {
+    list-style: none;
+    font-size: 12px;
+    padding-top: 8px;
+    padding-left: 2px;
+    overflow: hidden;
+}
+.header ul li{
+    float: left;
+    margin-bottom: 5px;
+}
+.header ul li a{ 
+    padding-left: 2px;
+    padding-right: 4px;
+    color: #003431;
+    text-decoration: none;
+}
+.header ul li a:hover{
+    text-decoration: underline;
+}
+#HOME table{
+    border: 2px solid;
+   
+}
+#HOME td{
+    text-align: center;
+}
+#HOME img{
+    width: 200;
+    height: 200;
+    border-radius: 80%;
+   
+}
+#HOME{
+    margin-bottom: 15px;
+    text-align: center;
+}
+#HOME .opening  {
+    padding-top: 80px;
+    text-align: left;
+    font-size: 25px;
+    font-family: monospace;
+    padding-left: 6px;
+    color: #d3beaa;
+}
+#home h1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    color: #d3beaa;
+}
+#edu{
+    border-top: 2px solid #506a67;
+    text-align: left;
+    text-align: center;
+}
+#edu .title {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    color: #d3beaa;
+}
+#edu img{
+    width: 15%;
+    border-radius: 70%;
+}
+#edu h1,h2{
+    background-color: #003431;
+}
+#jadwal{
+    border-top: 2px solid #506a67;
+    margin-bottom: 15px;
+}
+ #jadwal h1{
+     padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    color: #d3beaa;
+} 
+#jadwal h2{
+    font-size: 18px;
+    font: verdana;
+    font-style: italic;
+    padding-left: 25%;
+}
+#jadwal p{
+    font-size: 18px;
+    font: verdana;
+    font-style: italic;
+    padding-left: 25%;
+}
+#jadwal table{
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#jadwal th{
+    background-color: #506a67;
+    text-align: center;
+    color: black;
+    border: 2px solid;
+}
+#jadwal td{
+    background-color: #b4cac8;
+    text-align: center;
+    color: black;
+    border: 2px solid;
+}
+@media screen and (max-width: 991.98px) {
+    .header  {
+        margin: 0%;
+        width: 100%;
+    }
+    .header ul{ 
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+    .header ul li{ 
+        float: none;
+        width: 100%;  
+    } 
+}
+#kegiatan{
+    border-top: 2px solid #506a67;
+}
+#kegiatan h1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    color: #d3beaa;
+}
+#kegiatan table{
+    margin: auto;
+    font-size: 20px;
+}
+#kegiatan ul{
+    list-style: decimal;
+}
+#kegiatan table th{
+    font: verdana;
+    font-style: italic;
+padding-bottom: 15px;
+}
+#info{
+    border-top: 2px solid #506a67;  
+}
+#info h1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    color: #d3beaa;  
+}
+#info h2{
+    font-size: 35px;
+    font: verdana;
+    font-style: italic;
+    padding-left: 10%;  
+}
+#info p{
+    font-size: 18px;
+    font: verdana;
+    font-style: italic;
+    padding-left: 10%;
+}
+#info img{
+    padding-left: 5%;
+}
+#info  h3{ 
+    font-size: 35px;
+    font: verdana;
+    font-style: italic;
+    padding-left: 10%;  
+}
+#info h4{
+    font-size: 35px;
+    font: verdana;
+    font-style: italic;
+    padding-left: 10%;   
+}
+a{
+    text-decoration: none;
+}
+a.tombol{
+    background-color: #d3beaa;
+    cursor: pointer;
+    border-radius: 20px;
+    color: #003431;
+}
+#info ul{
+    list-style: decimal;
+    padding-left: 10%;
+}
+#info td{
+    background-color: #d3beaa;
+    text-align: center;
+    color: black;
+    border: 2px solid;
+}
+#info table{
+    padding-left: 8%;
+}
